@@ -1,10 +1,14 @@
 # 3D_motion_tracking_of_single_ions
 
 ------General Introduction-------------------
+
 This repository contains supplementary codes for the dynamic ion imaging study titled "Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function". It incluldes the iterative optimization code for the helical phase mask generation and the calculation for the theoretical localization precision based on the Cramer-Rao lower bound. 
+
 ---------------------------------------------
 
+
 ------Description of Contents----------------
+
 This supplementary includes the following files:
 
 "Iterative_mask_opt.m": This script performs an iterative optimization for the helical phase mask. It starts from the initial phase mask generated with "DHphase2.m" that is defined on the circular Fresnel zones and optimizes using an adapted version of the Gerchberg-Saxton algorithm. It reduces the the number of diffraction edges in the mask and boosts the two lobes in the corresponding PSF at various rotation angles. 
@@ -20,10 +24,15 @@ This supplementary includes the following files:
 "gaussFit.m": This function fits a 2D Gaussian profile to the point emitter image, returning parameters of amplitude, mean centroids and standard deviations, etc.
 
 ------------------------------------------------
-References are:
+
+References:
+
 [1]René Berlich and Sjoerd Stallinga, "High-order-helix point spread functions for monocular three-dimensional imaging with superior aberration robustness," Opt. Express 26, 4873-4891 (2018)
+
 [2]Sri Rama Prasanna Pavani and Rafael Piestun, "High-efficiency rotating point spread functions," Opt. Express 16, 3484-3489 (2008)
+
 [3]Jerry Chao, E. Sally Ward, and Raimund J. Ober, "Fisher information theory for parameter estimation in single molecule microscopy: tutorial," J. Opt. Soc. Am. A 33, B36-B57 (2016)
+
 [4]Yoav Shechtman, Lucien E. Weiss, Adam S. Backer, Steffen J. Sahl, and W. E. Moerner, "Precise Three-Dimensional Scan-Free Multiple-Particle Tracking over Large Axial Ranges with Tetrapod Point Spread Functions," Nano Lett. 15(6), 4194-4199 (2015)
 
 ------------------------------------------------
