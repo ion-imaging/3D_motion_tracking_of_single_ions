@@ -1,7 +1,8 @@
 # 3D_motion_tracking_of_single_ions
+
 ------General Introduction-------------------
-This repository contains supplementary codes for the dynamic ion imaging study titled "Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function" (manuscript ID: NCOMMS-23-50566A). It incluldes the iterative optimization code for the helical phase mask generation and the calculation for the theoretical localization precision based on the Cramer-Rao lower bound. 
-------------------------------------------------
+This repository contains supplementary codes for the dynamic ion imaging study titled "Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function". It incluldes the iterative optimization code for the helical phase mask generation and the calculation for the theoretical localization precision based on the Cramer-Rao lower bound. 
+---------------------------------------------
 
 ------Description of Contents----------------
 This supplementary includes the following files:
